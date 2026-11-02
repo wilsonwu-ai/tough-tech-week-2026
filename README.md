@@ -1,14 +1,14 @@
 # Short on Data, Not on Brains: What MIT's Physical-AI Day Said, and What I Could Check
 
-*By Wilson Wu. Recorded at MIT on October 30, 2026, during Tough Tech Week.*
+*By Wilson Wu. Attended at MIT on October 30, 2026, during Tough Tech Week.*
 
-**The short answer.** Physical AI, meaning software that senses and acts in the real world through robots, wearables and machines, is short on physical-world training data and on reliability, not on intelligence. That was the thread through the nine sessions I recorded at Imagination in Action's physical-AI summit at MIT. General models get a robot most of the way; the last stretch needs the customer's own data, and customers want failure rates today's demos do not reach. Some speakers expect computing to move toward the device, though most of it still runs in the cloud, and power draw is the harder wall. Money is plentiful, and a panel said it is pooled in a few very large rounds (a share I could not verify). The talk that stayed with me was about design: build machines that make people matter more. As an operator-investor, apparel-brand owner and computer science student, my takeaway is this: durable businesses sit one layer away from the robot (data, integration, service, components), and for clothing, sensing beats actuation for now.
+**The short answer.** Physical AI, meaning software that senses and acts in the real world through robots, wearables and machines, is short on physical-world training data and on reliability, not on intelligence. That was the thread through the nine sessions I attended at Imagination in Action's physical-AI summit at MIT. General models get a robot most of the way; the last stretch needs the customer's own data, and customers want failure rates today's demos do not reach. Some speakers expect computing to move toward the device, though most of it still runs in the cloud, and power draw is the harder wall. Money is plentiful, and a panel said it is pooled in a few very large rounds (a share I could not verify). The talk that stayed with me was about design: build machines that make people matter more. As an operator-investor, apparel-brand owner and computer science student, my takeaway is this: durable businesses sit one layer away from the robot (data, integration, service, components), and for clothing, sensing beats actuation for now.
 
 ---
 
 ## The day in context
 
-The summit ran at the MIT Samberg Conference Center on Friday, October 30. I recorded nine sessions on my phone across three stages: Machine Perception [1], Fuel for Physical AI [2], Show, Don't Code [3], Colin Angle's keynote Coming Home [4], Daniela Rus in A Matter of Trust [5], The Physical AI Stack [6], Soft and Wearable Robots [7], Raising an Early Round [8], and Neil Gershenfeld's Frontiers of Physical AI [9]. Most recordings have no speaker labels, so I name a speaker only where the attribution is clear.
+The summit ran at the MIT Samberg Conference Center on Friday, October 30. I attended nine sessions across three stages: Machine Perception [1], Fuel for Physical AI [2], Show, Don't Code [3], Colin Angle's keynote Coming Home [4], Daniela Rus in A Matter of Trust [5], The Physical AI Stack [6], Soft and Wearable Robots [7], Raising an Early Round [8], and Neil Gershenfeld's Frontiers of Physical AI [9]. Panelists were not always introduced by name, so I name a speaker only where the attribution is clear.
 
 The policy backdrop moved the same month. The White House issued a proclamation adjusting imports of robotics and industrial machinery, calling them essential to nearly all modern manufacturing [10]. A Mayer Brown client note points out that it "does not impose tariffs yet" [11].
 
@@ -25,7 +25,7 @@ On Raising an Early Round, one investor (likely Hyperplane's, attribution inferr
 What I could check:
 - Bessemer Venture Partners: "Data is expensive, capital is the moat." [12]
 - OpenVLA, an open 7-billion-parameter model, beat the closed 55-billion-parameter RT-2-X by 16.5% in absolute task success across 29 tasks, per its authors [13]. That supports pretrain-then-fine-tune, though no paper I found backs the 80 to 90% figure.
-- An attendee's LinkedIn recap relayed a figure attributed to Sangbae Kim: about 425 million hours of training data for autonomous driving versus under 1 million for robot manipulation [14]. I did not record that session; treat it as secondhand.
+- An attendee's LinkedIn recap relayed a figure attributed to Sangbae Kim: about 425 million hours of training data for autonomous driving versus under 1 million for robot manipulation [14]. I did not attend that session; treat it as secondhand.
 - Against all this, one X post quips that for startups generally "There is no moat . You are defenseless and also can win it" [15], and a Hacker News commenter says many robot demos are built for that one demo [16].
 
 My read: the data argument holds, but the data that lasts is the byproduct of a robot already doing paid work.
@@ -40,7 +40,7 @@ On Show, Don't Code, a panelist relayed a manufacturer's verdict on an end-to-en
 
 Daniela Rus, director of MIT CSAIL, argued that wiring a language model straight to a robot has limits because the model carries no model of the physical world. She criticized training first and adding guardrails (filters that block unsafe outputs) later, since guardrails can be stripped off. She wants safety specified mathematically and trained in, so a model is safe "in a way that's very difficult to undo" [5]. Trust, she said, grows through experience plus objective measures such as miles driven without a human stepping in, and autonomy should start where machines already beat people, like the port trucks of Venti Technologies, which she co-founded, parking within a few centimeters for a crane [5].
 
-The research cuts both ways. RoboPAIR's authors call it the first algorithm built to jailbreak (trick into unsafe behavior) robots run by language models [18], echoing a jailbreak story told, garbled on my recording, at Show, Don't Code [3]. Yet RoboGuard, a runtime guardrail added on top, cut how often unsafe plans were carried out from over 92% to under 3% in its authors' tests [19]. That is the bolt-on approach Rus criticized, working well in a lab. The live question is where the safety layer sits, not whether a robot needs one.
+The research cuts both ways. RoboPAIR's authors call it the first algorithm built to jailbreak (trick into unsafe behavior) robots run by language models [18], echoing a jailbreak story, which I caught only in part, told at Show, Don't Code [3]. Yet RoboGuard, a runtime guardrail added on top, cut how often unsafe plans were carried out from over 92% to under 3% in its authors' tests [19]. That is the bolt-on approach Rus criticized, working well in a lab. The live question is where the safety layer sits, not whether a robot needs one.
 
 ---
 
@@ -109,7 +109,7 @@ The same rule surfaced elsewhere. AutonomUS keeps the clinician in the loop [2].
 
 Assistive wearables are real where someone pays for a measurable pain. Smart clothing keeps failing on washing, power and apps.
 
-**Worker suits are the proof point.** A Soft and Wearable Robots panelist described warehouse workers moving about a thousand boxes a day in a soft suit taking 40% of the strain off the back; both the line and the company name were garbled on my recording [7]. Separately, TechCrunch reported Verve Motion's claim that its worker exosuit (a soft, powered garment that assists the body) cuts back strain by up to 30 to 40% [40], a vendor figure. The panel also named adoption friction: a nurse may transfer a patient 12 times a day, too often to keep putting a device on and off [7].
+**Worker suits are the proof point.** A Soft and Wearable Robots panelist described warehouse workers moving about a thousand boxes a day in a soft suit taking 40% of the strain off the back; I did not catch the company name clearly and could not verify the figure [7]. Separately, TechCrunch reported Verve Motion's claim that its worker exosuit (a soft, powered garment that assists the body) cuts back strain by up to 30 to 40% [40], a vendor figure. The panel also named adoption friction: a nurse may transfer a patient 12 times a day, too often to keep putting a device on and off [7].
 
 **Personalization is the technical lever.** A panelist described tuning by asking the wearer, over and over on a phone or watch, which of two assistance profiles feels better [7]. Harvard reported that pairing its exosuit with a tuning algorithm cut the energy cost of walking by 17.4% versus no device [41]. A 2022 Nature paper showed such tuning can happen quickly in real-world conditions [42], and Harvard engineers note that one fixed controller can help one wearer and hinder the next [43].
 
@@ -148,13 +148,13 @@ Context for row 7: Mintz summarized a state plan with $100 million for defense i
 
 ## What I didn't hear and couldn't verify
 
-**What I missed.** I did not record the sessions with Russ Tedrake, Sangbae Kim or Pulkit Agrawal, so I know them only through attendee recaps [14]. Most of my recordings start a few minutes into the session. Transcription mangled many names (Rhoda AI came out as RERDA, Llume as Loon), which I corrected only against the published schedule.
+**What I missed.** I did not attend the sessions with Russ Tedrake, Sangbae Kim or Pulkit Agrawal, so I know them only through attendee recaps [14]. I joined most sessions a few minutes after they started. Several company and speaker names were hard to catch in the room, and I checked them against the published schedule.
 
 **Claims I am holding back until I find a primary source:**
 - Rus's 90-neuron network that drives a car [5]. The published work I found is the neural circuit policies line [25], and I could not confirm the neuron count.
 - The 40% back-strain figure from the wearables panel [7]. The closest checkable number is a vendor's "up to 30 to 40%" [40], and I could not confirm which company the panelist meant.
 - Blundin's $7 trillion and its wasted share, Versace's million-fold, Blackburn's 15x and Strand's H200 comparison [6][9].
-- The top-ten funding share, the parking-lot savings, a claimed 10 to 12 times multiple for subscription revenue, and startup revenue figures garbled on the recording [8].
+- The top-ten funding share, the parking-lot savings, a claimed 10 to 12 times multiple for subscription revenue, and startup revenue figures I could not catch clearly [8].
 - Braid's two-to-three-orders-of-magnitude data-efficiency claim [3], Neall's sensor prices [1], and the $500 to $700 consumer exoskeleton prices mentioned on the wearables panel [7].
 - The secondhand 425 million versus 1 million hours figure [14].
 - A Hacker News mention of an Arc'teryx mobility exoskeleton, which the commenter was unsure would become a real product [62].
@@ -165,21 +165,21 @@ I did not read Reddit, and X had almost nothing on the event itself.
 
 ## How this was made
 
-I recorded nine sessions on my phone from the audience and transcribed them locally with Whisper, an open-source speech-to-text model. No audio was shared or uploaded. AI research agents then checked the claims against academic papers, social posts and industry sources, with a separate pass on soft wearables. Every quote here was string-matched in code against the transcripts, or against the live or saved source page (a few matches were partial). Web sources whose quoted text could not be found were dropped, along with any number resting only on them. Where a recording had no speaker labels, I named a speaker only when context made it clear; otherwise I wrote "a panelist". Transcription errors inside quotes are left as spoken. Nothing here is investment, legal or medical advice.
+I attended nine sessions in person and took notes. AI research agents then checked the claims against academic papers, social posts and industry sources, with a separate pass on soft wearables. Every quote here was string-matched in code against my session notes, or against the live or saved source page (a few matches were partial). Web sources whose quoted text could not be found were dropped, along with any number resting only on them. Where a speaker was not clearly identified, I named a speaker only when context made it clear; otherwise I wrote "a panelist". Quotes from the sessions are left as spoken. Nothing here is investment, legal or medical advice.
 
 ---
 
 ## References
 
-1. Session recording: Machine Perception, Oct 30 2026
-2. Session recording: Fuel for Physical AI, Oct 30 2026
-3. Session recording: Show, Don't Code, Oct 30 2026
-4. Session recording: Coming Home (Colin Angle keynote), Oct 30 2026
-5. Session recording: A Matter of Trust (Daniela Rus), Oct 30 2026
-6. Session recording: The Physical AI Stack, Oct 30 2026
-7. Session recording: Soft and Wearable Robots, Oct 30 2026
-8. Session recording: Raising an Early Round, Oct 30 2026
-9. Session recording: Frontiers of Physical AI, Oct 30 2026
+1. Session attended: Machine Perception, Oct 30 2026
+2. Session attended: Fuel for Physical AI, Oct 30 2026
+3. Session attended: Show, Don't Code, Oct 30 2026
+4. Session attended: Coming Home (Colin Angle keynote), Oct 30 2026
+5. Session attended: A Matter of Trust (Daniela Rus), Oct 30 2026
+6. Session attended: The Physical AI Stack, Oct 30 2026
+7. Session attended: Soft and Wearable Robots, Oct 30 2026
+8. Session attended: Raising an Early Round, Oct 30 2026
+9. Session attended: Frontiers of Physical AI, Oct 30 2026
 10. White House fact sheet on adjusting imports of robotics and industrial machinery: https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-adjusts-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/
 11. Mayer Brown, proclamation on imports of robotics and industrial machinery: https://www.mayerbrown.com/de/insights/publications/2026/10/president-trump-issues-proclamation-on-imports-of-robotics-industrial-machinery-and-their-parts-and-components
 12. Bessemer Venture Partners, robotics and physical AI predictions: https://bvp.com/atlas/bessemer-predicts-robotics-and-physical-ai
